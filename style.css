@@ -1,0 +1,103 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+
+  width: 626px;
+  margin: 64px auto 64px;
+
+}
+
+#main img {
+
+  margin-bottom: 32px;
+
+}
+
+h1 {
+
+  font-family: 'Dosis';
+  font-size: 32px;
+  color: #3F3D56;
+  font-weight: 500;  
+  margin-bottom: 16px;
+
+}
+
+h1 span {
+
+  font-weight: 700;
+  color: #EE24FF;
+  font-size: 32px;
+
+}
+
+p, span {
+
+  font-size: 15px;
+  color: #828282;
+  font-weight: 400;  
+  line-height: 22px;
+
+}
+
+p {
+
+  display: block;
+  margin-top: 32px; /* both margins will give a distance of 32px between the <span> tags and the <p> tag */
+  margin-bottom: 32px;
+
+}
+
+p strong, span strong {
+
+  color: #3F3D56;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+
+}
+
+p strong:first-of-type { /* It will select the first of the <strong> tag inside the <p> */
+
+  color: #828282;
+
+}
+
+#footer a + a{
+
+  margin-left: 42px;
+
+}
+
+
+#footer a{
+
+  color: #3F3D56;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  
+}
+
+.wave{
+ 
+  display: block;
+  margin-top: auto;
+  
+}
